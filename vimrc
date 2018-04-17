@@ -121,7 +121,7 @@ set smartindent
 set tabstop=2        "number of visual spaces per tab"
 set softtabstop=2    "number of spaces in tab when editing"
 set shiftwidth=2
-set number               "display line numbers"
+set relativenumber      "display relative line numbers"
 set wildmenu    "visual autocomplete for command menu"
 set lazyredraw  "redraw only when we need to"
 set colorcolumn=80
@@ -166,9 +166,9 @@ let g:gruvbox_contrast_dark="hard"
 colorscheme gruvbox
 set background=dark
 set cursorline
-" set termguicolors                    " For true color
-" set t_8f=[38;2;%lu;%lu;%lum        " set foreground color
-" set t_8b=[48;2;%lu;%lu;%lum        " set background color
+set termguicolors                    " For true color
+set t_8f=[38;2;%lu;%lu;%lum        " set foreground color
+set t_8b=[48;2;%lu;%lu;%lum        " set background color
 
 " Ranger instead of netrw
 let g:ranger_replace_netrw = 1
