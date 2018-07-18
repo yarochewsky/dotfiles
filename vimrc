@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'itchyny/lightline.vim'
-Plugin 'francoiscabrol/ranger.vim'
+Plugin 'vim-scripts/fcitx.vim'
 Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
 " " All of your Plugins must be added before the following line
